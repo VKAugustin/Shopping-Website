@@ -1,0 +1,48 @@
+body {
+    font-family: "Lato", sans-serif
+}
+
+.mySlides {
+    display: none
+}
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.head{
+font-size: 1000%; 
+} 
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #556691;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #111311}
+  
+  .button:active {
+    background-color: #10130d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .w3-half img{
+    margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+  .w3-half img:hover{
+    opacity:1}
